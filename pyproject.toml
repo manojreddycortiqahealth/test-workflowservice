@@ -1,0 +1,20 @@
+[project]
+name = "workflowservice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "orchestrator",
+]
+
+[tool.uv.sources]
+orchestrator = { git = "https://github.com/manojreddycortiqahealth/test-orchestrator.git", tag = "v0.1.0" }
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
