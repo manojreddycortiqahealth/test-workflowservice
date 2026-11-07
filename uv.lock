@@ -31,8 +31,8 @@ wheels = [
 
 [[package]]
 name = "orchestrator"
-version = "0.1.0"
-source = { git = "https://github.com/manojreddycortiqahealth/test-orchestrator.git?tag=v0.1.0#adc69e2e9dd12b9e7a322398f79e4213023290f6" }
+version = "0.2.0"
+source = { git = "https://github.com/manojreddycortiqahealth/test-orchestrator.git?tag=v0.2.0#6f1b541e5d495a6f97dc566bb1b1256ed97f6e9e" }
 dependencies = [
     { name = "pydantic" },
 ]
@@ -239,7 +239,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "orchestrator", git = "https://github.com/manojreddycortiqahealth/test-orchestrator.git?tag=v0.1.0" }]
+requires-dist = [{ name = "orchestrator", git = "https://github.com/manojreddycortiqahealth/test-orchestrator.git?tag=v0.2.0" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "pytest", specifier = ">=9.2.0" }]
